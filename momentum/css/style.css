@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'Cafe24Decobox';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2405-3@1.1/Cafe24Decobox.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Cafe24Decobox';
+    color: #ffffff;
+    text-shadow: -2px 0 #000, 0 2px #000, 2px 0 #000, 0 -1px #000;
+}
+
+input {
+    font-family: 'Cafe24Decobox';
+    font-size: 16px;
+    padding-left: 7px;
+}
+
+h2 {
+    font-size: 300%;
+    padding: 10px;
+    text-shadow: -1px;
+}
+
+li {
+    padding: 5px;
+}
+
+li::marker{
+    content: "-";
+    font-size:1em;
+}
+
+button {
+    color: red;
+    font-size: 16px;
+    border: none;
+    background-color: transparent;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.container {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+}
+
+#loginwrapper {
+    display: flex;
+}
+
+#login {
+    background-color: rgba(105, 105, 105, 0.5);
+    border-radius: 40px;
+    width: 25vw;
+    height: 100px;
+    margin: auto;
+    flex-direction: column;
+}
+
+#login-form {
+    display: flex;
+}
+
+#login-input {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100px;
+}
+
+#input-text {
+    border: 2px solid black;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-right: none;
+}
+
+#input-submit {
+    border: 2px solid black;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+#greeting {
+    display: flex;
+    margin-top: 10%;
+    justify-content: center;
+}
+
+#clock {
+    display: flex;
+    margin: auto;
+    margin-top: 10%;
+    max-width: 50dvh;
+    background-color: rgba(105, 105, 105, 0.5);
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+#todowrapper {
+    display: flex;
+    margin:auto;
+    margin-top: 15%;
+    justify-content: center;
+    align-items: center;
+    max-width: 50dvh;
+    min-height: 60dvh;
+    border-radius: 40px;
+    flex-direction: column;
+    background-color: rgba(105, 105, 105, 0.5 );
+}
+
+#todo-form {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#todo-form input {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 40px;
+}
+
+#todo-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#weather {
+    display: flex;
+    justify-content: center;
+}
+
+#weather-span {
+    display: flex;
+    font-size: 30px;
+    margin-top: 50%;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    max-width: 50dvh;
+    min-height: 100px;
+    background-color: rgba(105, 105, 105, 0.5);
+    border-radius: 40px;
+    padding: 10%;
+}
